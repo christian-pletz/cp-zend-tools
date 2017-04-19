@@ -8,7 +8,7 @@
  * namespace definition and usage
  */
 
-namespace Cp\Model\Storage\Db;
+namespace Cp\ZendTools\Model\Storage\Db;
 
 use Zend\Db\ResultSet\HydratingResultSet;
 use Zend\Db\TableGateway\TableGatewayInterface;
