@@ -9,7 +9,6 @@
     }
   ],
   "minimum-stability": "dev",
-  "prefer-stable": true,
   "extra": {
     "zf": {
       "component": "Cp\\ZendTools",
