@@ -11,10 +11,6 @@
   "minimum-stability": "dev",
   "prefer-stable": true,
   "extra": {
-    "branch-alias": {
-      "dev-master": "0.1-dev",
-      "dev-develop": "0.1-dev"
-    },
     "zf": {
       "component": "Cp\\ZendTools",
       "config-provider": "Cp\\ZendTools\\ConfigProvider"
