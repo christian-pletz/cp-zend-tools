@@ -8,7 +8,6 @@
       "email": "info@christian-pletz.de"
     }
   ],
-  "minimum-stability": "dev",
   "extra": {
     "zf": {
       "component": "Cp\\ZendTools",
