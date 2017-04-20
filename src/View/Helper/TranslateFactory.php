@@ -8,6 +8,7 @@ use Interop\Container\ContainerInterface;
 use Interop\Container\Exception\ContainerException;
 use Zend\ServiceManager\Exception\ServiceNotCreatedException;
 use Zend\ServiceManager\Exception\ServiceNotFoundException;
+use Zend\I18n\View\Helper\Translate;
 
 /**
  * Class TranslateFactory
@@ -37,6 +38,9 @@ class TranslateFactory implements FactoryInterface
             $translateConfig = $config['cp_zendtools_translate']['defaultParams'];
         }
 
-        return new Translate($translateConfig);
+        $translate = new Translate($translateConfig);
+        $translate->setTranslator($container->get(Translate::class));
+
+        return $translate;
     }
 }
