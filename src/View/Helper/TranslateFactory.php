@@ -31,7 +31,7 @@ class TranslateFactory implements FactoryInterface
     {
         $translateConfig = null;
 
-        $config = $container->get('Config');
+        $config = $container->get('config');
 
         if (isset($config['cp_zendtools_translate'], $config['cp_zendtools_translate']['defaultParams'])) {
             $translateConfig = $config['cp_zendtools_translate']['defaultParams'];
