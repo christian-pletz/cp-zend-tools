@@ -37,6 +37,19 @@ class Translate extends ZendTranslateHelper
 
 
     /**
+     * @param $message
+     * @param array $params
+     * @param null $textDomain
+     * @param null $locale
+     * @return string
+     */
+    public function translate($message, $params = array(), $textDomain = null, $locale = null)
+    {
+        return $this->__invoke($message, $params, $textDomain, $locale);
+    }
+
+
+    /**
      * Translate a message
      *
      * @param  string $message
