@@ -1,6 +1,6 @@
 <?php
 
-namespace Cp\ZendTools\MigrateModel;
+namespace Cp\ZendTools\Migrate\Model;
 
 use Zend\Db\Adapter\Adapter;
 use Zend\Db\ResultSet\ResultSet;

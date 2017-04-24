@@ -1,9 +1,9 @@
 <?php
 
-namespace Cp\ZendTools\MigrateConsole;
+namespace Cp\ZendTools\Migrate\Console;
 
-use Cp\ZendTools\MigrateModel\AbstractMigration;
-use Cp\ZendTools\MigrateModel\MigrateTable;
+use Cp\ZendTools\Migrate\Model\AbstractMigration;
+use Cp\ZendTools\Migrate\Model\MigrateTable;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
@@ -12,7 +12,7 @@ use Symfony\Component\Console\Output\OutputInterface;
 
 /**
  * Class MigrateCommand
- * @package Cp\ZendTools\MigrateConsole
+ * @package Cp\ZendTools\Migrate\Console
  */
 class MigrateCommand extends Command
 {

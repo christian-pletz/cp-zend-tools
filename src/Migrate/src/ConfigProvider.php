@@ -2,10 +2,10 @@
 
 namespace Migrate;
 
-use Cp\ZendTools\MigrateConsole\MigrateCommand;
-use Cp\ZendTools\MigrateConsole\MigrateCommandFactory;
-use Cp\ZendTools\MigrateModel\MigrateTable;
-use Cp\ZendTools\MigrateModel\MigrateTableFactory;
+use Cp\ZendTools\Migrate\Console\MigrateCommand;
+use Cp\ZendTools\Migrate\Console\MigrateCommandFactory;
+use Cp\ZendTools\Migrate\Model\MigrateTable;
+use Cp\ZendTools\Migrate\Model\MigrateTableFactory;
 
 define('MIGRATE_ROOT', __DIR__ . '/..');
 

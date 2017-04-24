@@ -1,8 +1,8 @@
 <?php
 
-namespace Cp\ZendTools\MigrateConsole;
+namespace Cp\ZendTools\Migrate\Console;
 
-use Cp\ZendTools\MigrateModel\MigrateTable;
+use Cp\ZendTools\Migrate\Model\MigrateTable;
 use Zend\ServiceManager\Factory\FactoryInterface;
 use Interop\Container\ContainerInterface;
 use Interop\Container\Exception\ContainerException;

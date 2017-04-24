@@ -1,6 +1,6 @@
 <?php
 
-namespace Cp\ZendTools\MigrateModel;
+namespace Cp\ZendTools\Migrate\Model;
 
 use Symfony\Component\Console\Output\OutputInterface;
 use Zend\Db\Adapter\Adapter;
@@ -9,6 +9,10 @@ use Zend\Db\Adapter\Driver\Pdo\Pdo;
 use Zend\Db\Sql\Select;
 use Zend\Db\TableGateway\TableGateway;
 
+/**
+ * Class MigrateTable
+ * @package Cp\ZendTools\Migrate\Model
+ */
 class MigrateTable
 {
 

@@ -1,11 +1,15 @@
 <?php
 
-namespace Cp\ZendTools\MigrateModel;
+namespace Cp\ZendTools\Migrate\Model;
 
 
-use Cp\ZendTools\MigrateModel\Exception\RuntimeException;
+use Cp\ZendTools\Migrate\Model\Exception\RuntimeException;
 use Symfony\Component\Console\Output\OutputInterface;
 
+/**
+ * Class AbstractMigration
+ * @package Cp\ZendTools\Migrate\Model
+ */
 abstract class AbstractMigration
 {
 

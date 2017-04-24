@@ -1,10 +1,10 @@
 <?php
 
-namespace Cp\ZendTools\MigrateModel;
+namespace Cp\ZendTools\Migrate\Model;
 
 /**
  * Interface MigrateInterface
- * @package Cp\ZendTools\MigrateModel
+ * @package Cp\ZendTools\Migrate\Model
  */
 interface MigrateInterface
 {

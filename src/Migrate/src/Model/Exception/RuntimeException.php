@@ -1,6 +1,12 @@
 <?php
-namespace Cp\ZendTools\MigrateModel\Exception;
 
-class RuntimeException extends \RuntimeException {
+namespace Cp\ZendTools\Migrate\Model\Exception;
+
+/**
+ * Class RuntimeException
+ * @package Cp\ZendTools\Migrate\Model\Exception
+ */
+class RuntimeException extends \RuntimeException
+{
 
 }
