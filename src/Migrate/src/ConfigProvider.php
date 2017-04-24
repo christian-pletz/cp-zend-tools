@@ -1,6 +1,6 @@
 <?php
 
-namespace Migrate;
+namespace Cp\ZendTools\Migrate;
 
 use Cp\ZendTools\Migrate\Console\MigrateCommand;
 use Cp\ZendTools\Migrate\Console\MigrateCommandFactory;
