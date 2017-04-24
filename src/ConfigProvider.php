@@ -57,7 +57,6 @@ class ConfigProvider
             'factories' => [
                 MigrateCommand::class => MigrateCommandFactory::class,
                 MigrateTable::class => MigrateTableFactory::class,
-
             ],
             'invokables' => [],
         ];
