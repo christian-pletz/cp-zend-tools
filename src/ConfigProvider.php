@@ -10,10 +10,10 @@
 
 namespace Cp\ZendTools;
 
-use Cp\ZendTools\MigrateConsole\MigrateCommand;
-use Cp\ZendTools\MigrateConsole\MigrateCommandFactory;
-use Cp\ZendTools\MigrateModel\MigrateTable;
-use Cp\ZendTools\MigrateModel\MigrateTableFactory;
+use Cp\ZendTools\Migrate\Console\MigrateCommand;
+use Cp\ZendTools\Migrate\Console\MigrateCommandFactory;
+use Cp\ZendTools\Migrate\Model\MigrateTable;
+use Cp\ZendTools\Migrate\Model\MigrateTableFactory;
 
 /**
  * Class ConfigProvider

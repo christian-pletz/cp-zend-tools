@@ -11,7 +11,7 @@ use Zend\ServiceManager\Exception\ServiceNotFoundException;
 
 /**
  * Class MigrateCommandFactory
- * @package Cp\ZendTools\MigrateConsole
+ * @package Cp\ZendTools\Migrate\Console
  */
 class MigrateCommandFactory implements FactoryInterface
 {
