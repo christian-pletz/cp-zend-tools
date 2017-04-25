@@ -58,7 +58,11 @@ class ConfigProvider
                 MigrateCommand::class => MigrateCommandFactory::class,
                 MigrateTable::class => MigrateTableFactory::class,
             ],
-            'invokables' => [],
+            'invokables' => [
+                Domain::class => Domain::class,
+            ],
         ];
     }
+
+
 }

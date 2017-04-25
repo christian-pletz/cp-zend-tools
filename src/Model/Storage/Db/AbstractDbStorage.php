@@ -35,7 +35,7 @@ abstract class AbstractDbStorage
     private $hydrator;
 
     /**
-     * @return TableGatewayInterface
+     * @return \Zend\Db\TableGateway\TableGateway
      */
     public function getTableGateway(): TableGatewayInterface
     {
