@@ -80,5 +80,7 @@ class MigrateCommand extends Command
             $migration->setMigrateTable($this->getMigrateTable());
             $migration->process($output);
         }
+
+        return 0;
     }
 }
