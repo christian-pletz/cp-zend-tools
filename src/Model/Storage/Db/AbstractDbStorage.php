@@ -45,7 +45,7 @@ abstract class AbstractDbStorage
     /**
      * @return Hydrator\ClassMethods|Hydrator\ClassMethods
      */
-    public function getHydrator(): Hydrator\ClassMethods
+    public function getHydrator()
     {
         return $this->hydrator;
     }
